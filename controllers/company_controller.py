@@ -47,7 +47,7 @@ def get_all_companies():
 
         company_list.append(company_dict)
 
-    return jsonify({"message": "companies retrieved", "result": company}), 200
+    return jsonify({"message": "companies retrieved", "result": company_list}), 200
 
 
 def get_company_by_id(company_id):
